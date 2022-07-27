@@ -26,7 +26,8 @@ urlpatterns = [
     path('grade/', include('grade.urls')),
     path('audio/', include('audio.urls')),
     path('transcribe/', include('transcribe.urls')),
-    path('admin/', admin.site.urls),   
+    path('admin/', admin.site.urls),
+    path('pekerjaan-day2/', include('day2.urls'))  
 ]
 
 if settings.DEBUG:
